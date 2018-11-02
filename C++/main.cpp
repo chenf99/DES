@@ -18,10 +18,10 @@ int main() {
         exit(2);
     }
 
-    cout << "加密前:" + input << endl;
+    cout << "plain:" + input << endl;
     encrypt(input, encryptText, key);
-    cout << "加密后:" + encryptText << endl;
+    cout << "encrypt:" + encryptText << endl;
     decrypt(encryptText, decryptText, key);
-    cout << "解密后:" + decryptText << endl;
+    cout << "decrypt:" + decryptText << endl;
     return 0;
 }
